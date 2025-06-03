@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
 $user = "root";
-$pass = "your_password_here"; // Replace with your MariaDB password
+$pass = "your_password_here";
 $db   = "order_track_db";
 
 $conn = new mysqli($host, $user, $pass, $db);
