@@ -1,10 +1,10 @@
 <?php
 $host = "localhost";
 $user = "root";
-$pass = "your_password_here";
+$pass = "root";
 $db   = "order_track_db";
 
-$conn = new mysqli($host, $user, $pass, $db);
+$conn = new mysqli(localhost, root, root, order_track_db);
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
