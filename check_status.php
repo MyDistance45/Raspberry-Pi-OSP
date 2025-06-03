@@ -4,7 +4,7 @@ $user = "root";
 $pass = "root";
 $db   = "order_track_db";
 
-$conn = new mysqli(localhost, root, root, order_track_db);
+$conn = new mysqli("localhost", "root", "root", "order_track_db");
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
