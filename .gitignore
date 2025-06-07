@@ -1,0 +1,13 @@
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore config
+.env
+
+# Ignore local DB dump (optional)
+*.sql

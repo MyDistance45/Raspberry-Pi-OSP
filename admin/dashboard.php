@@ -32,13 +32,8 @@ $result = $conn->query("SELECT order_id, email, customer_name, status, created_a
 </head>
 <body>
 
-  <div class="sidebar">
-    <h4 class="text-center">📦 Admin Panel</h4>
-    <hr>
-    <a href="../index.php">🏠 Home</a>
-    <a href="dashboard.php">📊 Dashboard</a>
-    <a href="logout.php">🚪 Logout</a>
-  </div>
+<?php include 'sidebar.php'; ?>
+
 
   <div class="content">
     <h1>📊 Order Dashboard</h1>

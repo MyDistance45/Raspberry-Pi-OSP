@@ -52,20 +52,8 @@ if ($conn->connect_error) {
 </head>
 <body>
 
-<div class="sidebar">
-  <h4 class="text-center">📦 OrderTrack</h4>
-  <hr>
-  <a href="/index.php">🏠 Home</a>
-  <a href="/order.php">📝 Submit Order</a>
-  <a href="/track.php">🔍 Track Order</a>
+<?php include 'sidebar.php'; ?>
 
-  <?php if (isset($_SESSION['admin_logged_in']) && $_SESSION['admin_logged_in']): ?>
-    <a href="admin/dashboard.php">📊 Admin Dashboard</a>
-    <a href="admin/logout.php">🚪 Logout</a>
-  <?php else: ?>
-    <a href="admin/login.php">🔐 Admin Login</a>
-  <?php endif; ?>
-</div>
 
   <div class="content">
     <h1>📤 Order Submission</h1>
