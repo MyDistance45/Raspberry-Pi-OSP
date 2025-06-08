@@ -32,7 +32,7 @@ $result = $conn->query("SELECT order_id, email, customer_name, status, created_a
 </head>
 <body>
 
-<?php include 'sidebar.php'; ?>
+<?php include '../sidebar.php'; ?>
 
 
   <div class="content">
