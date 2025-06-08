@@ -24,8 +24,6 @@ $result = $conn->query("SELECT order_id, email, customer_name, status, created_a
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="../layout.css">
-  <h1>📊 Admin Dashboard</h1>
-<p class="text-muted">Welcome, <strong><?= htmlspecialchars($_SESSION['admin_username']) ?></strong> 👋</p>
 
 </head>
 <body>
