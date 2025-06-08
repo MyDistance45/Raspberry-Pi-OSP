@@ -7,7 +7,7 @@ $base = (basename(__DIR__) === 'admin') ? '../' : '';
 ?>
 <div class="sidebar">
 <div class="d-flex justify-content-center align-items-center mb-4" style="height: 120px;">
-  <img src="<?= $base ?>assets/ordertracklogo.png"
+  <img src="<?= $base ?>/assets/ordertracklogo.png"
        alt="OrderTrack Logo"
        style="height: 100px; width: auto; filter: brightness(0) invert(1);">
 </div>
