@@ -2,7 +2,7 @@
 session_start();
 $host = "localhost";
 $user = "root";
-$pass = "";
+$pass = "root";
 $db   = "order_track_db";
 
 $conn = new mysqli($host, $user, $pass, $db);

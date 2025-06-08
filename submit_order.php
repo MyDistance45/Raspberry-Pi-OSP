@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 $host = 'localhost';
 $db   = 'order_track_db';
 $user = 'root';
-$pass = '';
+$pass = 'root';
 
 $conn = new mysqli($host, $user, $pass, $db);
 

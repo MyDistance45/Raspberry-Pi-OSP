@@ -10,7 +10,7 @@ if (!isset($_SESSION['admin_logged_in'])) {
 // DB connection
 $host = "localhost";
 $user = "root";
-$pass = ""; // Your DB password
+$pass = "root"; 
 $db   = "order_track_db";
 
 $conn = new mysqli($host, $user, $pass, $db);

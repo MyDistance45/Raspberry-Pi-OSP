@@ -7,7 +7,7 @@ if (!isset($_SESSION['admin_logged_in'])) {
 
 $host = "localhost";
 $user = "root";
-$pass = "";
+$pass = "root";
 $db   = "order_track_db";
 
 $conn = new mysqli($host, $user, $pass, $db);
