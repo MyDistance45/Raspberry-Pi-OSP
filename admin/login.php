@@ -3,7 +3,7 @@ session_start();
 $host = "localhost";
 $user = "root";
 $pass = "root";
-$db   = "order_track_db";
+$db   = "ordertrack";
 
 $conn = new mysqli($host, $user, $pass, $db);
 $errorMessage = '';

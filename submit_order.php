@@ -5,7 +5,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 $host = 'localhost';
-$db   = 'order_track_db';
+$db   = 'ordertrack';
 $user = 'root';
 $pass = 'root';
 

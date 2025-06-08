@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$db   = 'order_track_db';
+$db   = 'ordertrack';
 $user = 'root';
 $pass = 'root';
 
