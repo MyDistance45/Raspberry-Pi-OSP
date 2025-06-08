@@ -13,14 +13,14 @@ $base = (basename(__DIR__) === 'admin') ? '../' : '';
 </div>
 
   <hr>
-  <a href="<?= $base ?>index.php">🏠 Home</a>
-  <a href="<?= $base ?>order.php">📝 Submit Order</a>
-  <a href="<?= $base ?>track.php">🔍 Track Order</a>
+  <a href="<?= $base ?>/index.php">🏠 Home</a>
+  <a href="<?= $base ?>/order.php">📝 Submit Order</a>
+  <a href="<?= $base ?>/track.php">🔍 Track Order</a>
 
   <?php if (!empty($_SESSION['admin_logged_in'])): ?>
-    <a href="<?= $base ?>admin/dashboard.php">📊 Admin Dashboard</a>
-    <a href="<?= $base ?>admin/logout.php">🚪 Logout</a>
+    <a href="<?= $base ?>/admin/dashboard.php">📊 Admin Dashboard</a>
+    <a href="<?= $base ?>/admin/logout.php">🚪 Logout</a>
   <?php else: ?>
-    <a href="<?= $base ?>admin/login.php">🔐 Admin Login</a>
+    <a href="<?= $base ?>/admin/login.php">🔐 Admin Login</a>
   <?php endif; ?>
 </div>
